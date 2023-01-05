@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pitch Perfect</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="resources/login.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+           
+<body>
+    <nav>
+            <ul>
+                <li><a href="./index.html" class="left_bar"><strong>Pitch Perfect </strong></a></li>
+                <li><a href="./index.html" class="mid_bar">Features</a></li>
+                <li><a href="./contactus.html" class="mid_bar">Contact Us</a></li>
+                <li><a href="./aboutus.html" class="mid_bar">About Us</a></li>
+                <li><a href="./login.html" class="right_bar">Login</a></li>
+                <li><a href="./register.html" class="right_bar">Register</a></li>
+            </ul>    
+    </nav>
+    
+    
+        <div class="clearfix">
+            <header>
+                <h1>Login</h1> 
+            </header>
+            
+                <div class="box">
+                    <p>Enter your credentials to obtain access.</p>
+                </div>
+        
+<!--    Login form used to input user data and send to login servlet.         -->
+    
+        <form method="post" action="loginServlet">        
+            <table>          
+                    <tr>
+                        <td><input class = "form" type= "email" id = "email" name = "email" autocomplete="on" placeholder= "Email address: you@domain.com" required ></td>
+                    </tr> 
+                    
+                    <tr>
+                        <td> <input class = "form" type="password" id="pass" name ="pass" autocomplete="on" placeholder= "Enter password" required></td>
+                    </tr> 
+                    
+                    <tr>
+                        <td> <input class = "submit_form button" type="submit" value="Sign In"></td>
+                    </tr>
+
+            </table>
+        </form>
+       </div>
+    </body>
+</html>

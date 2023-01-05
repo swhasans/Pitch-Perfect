@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pitch Perfect</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="resources/register.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+           
+<body>
+    <nav>
+            <ul>
+                <li><a href="./index.html" class="left_bar"><strong>Pitch Perfect </strong></a></li>
+                <li><a href="./index.html" class="mid_bar">Features</a></li>
+                <li><a href="./contactus.html" class="mid_bar">Contact Us</a></li>
+                <li><a href="./aboutus.html" class="mid_bar">About Us</a></li>
+                <li><a href="./login.html" class="right_bar">Login</a></li>
+                <li><a href="./register.html" class="right_bar">Register</a></li>
+            </ul>    
+    </nav>
+    
+        <header>
+            <h1>Register</h1> 
+        </header>
+    
+        <div class="clearfix">
+            <div class="div-1">
+                <p>Share your experience & feedback with the rest of the community.</p>
+            </div>
+            <div class="div-1">
+                <p>Sign up for a free account</p>
+            </div>
+        </div>
+    
+<!--    Register form to add user information and send it to registerServlet-->
+
+            <form method="post" action="registerServlet">        
+                <table>          
+                    <tr>
+                        <td><input class = "form" type="text" id="first_name" name="fname" autocomplete="on" placeholder= "First name" required ></td> 
+                        <td><input class = "form" type="text" id="last_name" name="lname" autocomplete="on" placeholder= "Last name" required ></td>    
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2"><input class = "form" type="text" id="name" autocomplete="on" name="name" placeholder= "User name" required ></td>    
+                    </tr>     
+                    
+                    <tr>
+                        <td colspan="2"><input class = "form" type="text" id="ph_number" autocomplete="on" name="number" placeholder= "Phone number" required ></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><input class = "form" type= "email" id = "email" name= "email" autocomplete="on" placeholder= "Email address: you@domain.com" required ></td>
+                        <td> <input class = "form" type="password" id="pass" name="pass" autocomplete="on" placeholder= "Create password" required></td>
+                    </tr> 
+                    
+                    <tr>
+                        <td colspan="2"> <input class = "submit_form button" type="submit" value="Create Account"></td>
+                    </tr>
+                </table>
+        </form>
+    
+    </body>
+</html>

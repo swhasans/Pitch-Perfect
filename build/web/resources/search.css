@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 21, 2022, 1:50:23 AM
+    Author     : Syed
+*/
+
+nav {
+    border: 3px solid black; 
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+li{
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px; 
+    font-size: 25px; 
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+li > ul {
+display: inline;
+}
+
+.right_bar
+{
+  padding: 5px;
+  float: right;
+} 
+
+.mid_bar
+{
+  padding: 5px;
+  float: left;
+}
+
+.left_bar
+{ 
+  padding: 5px;
+  float: left;
+}      
+
+header {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px; 
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#email{
+  width: 2790px;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 35px; 
+  font-weight: 700;
+}
+
+#signup{
+  width: 2850px;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 35px; 
+  font-weight: 400;
+}
+
+#signin{
+  width: 2500px;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 35px; 
+  font-weight: 400;
+}
+
+#signIn_email{
+  width: 2450px;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 35px; 
+  font-weight: 700;
+}
+
+#signOut_email{
+  width: 2450px;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 35px; 
+  font-weight: 700;
+}
+
+#signout{
+  width: 2450px;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 35px; 
+  font-weight: 400;
+}
+
+#Volleyball{
+ margin: .4rem;    
+}
+
+#Gymnasium{
+ margin: .4rem;
+}
+
+#Football{
+ margin: .4rem;
+}
