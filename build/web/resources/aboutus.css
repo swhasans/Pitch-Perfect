@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 21, 2022, 1:50:50 AM
+    Author     : Syed
+*/
+
+nav {
+    border: 3px solid black; 
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+li{
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px; 
+    font-size: 25px; 
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+li > ul {
+display: inline;
+}
+
+.right_bar
+{
+  padding: 5px;
+  float: right;
+} 
+
+.mid_bar
+{
+  padding: 5px;
+  float: left;
+}
+
+.left_bar
+{ 
+  padding: 5px;
+  float: left;
+}      
+
+/* Styling the header*/
+header {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  width: 950px;
+  margin: 0 auto;
+  padding: 45px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px; 
+  border: 3px solid black;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Styling the footer */
+footer {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 25px; 
+  font-weight: bold;
+}
