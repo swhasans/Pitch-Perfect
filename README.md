@@ -1,5 +1,7 @@
 # Project-Pitch-Perfect
 
+Discover Sport Activities & Book Facilities Nearby
+
 Course Project for CST3511 (Internet Scale Applications and Development)
 
 • Designed and programmed a responsive web application and database (using HTML, CSS and JavaScript); that helps discover sport activities and book facilities nearby.
