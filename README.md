@@ -20,7 +20,7 @@ The Sport Activity Finder is a responsive web application that helps users disco
 
 ## Technologies
 - HTML, CSS, and JavaScript for front-end development
-- This project utilizes Servlets and AJAX for data processing and manipulation, allowing for asynchronous retrieval and sending of data from the server without affecting the display and behavior of the current page. JSON is commonly used to pass updates between the client and server.
+- This project utilizes Servlets and AJAX for data processing and manipulation, allowing for asynchronous retrieval and sending of data from the server without affecting the display and behavior of the current page.
 - SQL for database creation and management
 
 ## How to Use
