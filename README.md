@@ -16,7 +16,7 @@ The Sport Activity Finder is a responsive web application that helps users disco
 - Discover sport activities and facilities nearby
 - Responsive design for optimal user experience on all devices
 - Easy-to-use booking system
-- Access to third-party data for a wide range of activities and facilities
+- Access to third-party data for a selected range of activities and facilities
 
 ## Technologies
 - HTML, CSS, and JavaScript for front-end development
@@ -30,6 +30,6 @@ The Sport Activity Finder is a responsive web application that helps users disco
 
 ## Future Improvements
 - Integrate a user account system for saving bookings and preferences.
-- Add a feature for reviewing and rating activities and facilities.
+- Add a feature for rating activities and facilities.
 - Implement a map view for easier navigation.
 - Add more data sources for a wider range of activities and facilities.
