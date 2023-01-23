@@ -26,10 +26,14 @@ The Sport Activity Finder is a responsive web application that helps users disco
 ## How to Use
 1. Clone the repository or download the files.
 2. Run the application on a local server.
-3. Navigate to the search tab in the navigation bar to find sport activities and facilities in the vicinity.
+3. Navigate to the search tab in the navigation bar to find sport activities and facilities in the vicinity*.
 
 ## Future Improvements
 - Integrate a user account system for saving bookings and preferences.
 - Add a feature for rating activities and facilities.
 - Implement a map view for easier navigation.
 - Add more data sources for a wider range of activities and facilities.
+
+> **Note**
+> : * - This feature is not fully implemented yet and requires additional work.
+
